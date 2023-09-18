@@ -20,6 +20,15 @@
 - https://github.com/MrRefactoring/jira.js
 - https://github.com/steves/node-jira
 
+### Get Board
+- https://<your domain>.atlassian.net/rest/agile/1.0/board/<board id>/configuration
+  - contains columns
+  - conains filter
+- https://<your domain>.atlassian.net/rest/api/2/filter/<filter id>
+  - contains jql
+- https://<your domain>.atlassian.net/rest/agile/1.0/board/<board id>/sprint?state=active
+  - contains all sprints
+
 ## SP Estimation
 
 - https://github.com/janpetzold/magic-estimation
